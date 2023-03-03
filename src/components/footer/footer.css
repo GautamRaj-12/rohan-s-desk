@@ -1,0 +1,10 @@
+.footer{
+    margin-top: 1rem;
+    background-color: #131c27;
+    padding: 0.3rem;
+}
+.footer h3{
+    letter-spacing: 0.7rem;
+    color:white;   
+    padding: 0.5rem;
+}

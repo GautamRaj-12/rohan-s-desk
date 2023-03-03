@@ -1,0 +1,20 @@
+.write{
+    margin-top: 2rem;
+}
+.writeIcon{
+    font-size: 2rem;
+}
+.writeInput{
+    width:100%;
+    margin-bottom: 2rem;
+}
+.thumbnail{
+    width:100%;
+    height:25vh;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+}
+.writeSubmit{
+    margin-bottom: 1rem;
+}

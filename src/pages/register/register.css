@@ -1,0 +1,21 @@
+
+.register-container{
+    min-height:90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap:2rem;
+    color:white;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4),transparent),url("../../assets/login-page-bg.jpg"); 
+    /* border:1px solid red; */
+}
+.register-container h1{
+    font-family: 'pattaya';
+    letter-spacing: 0.5rem;
+    margin-bottom: 2rem;
+}
+.login-button{
+    margin-right: 2.7rem;
+}

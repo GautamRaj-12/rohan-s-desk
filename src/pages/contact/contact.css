@@ -1,0 +1,26 @@
+.contact-container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.socialMedia{
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia h2{
+    font-family: Pattaya;
+    margin-bottom: 2rem;
+}
+.contact-icon{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color:#131c27;
+}
+.socialMediaIcon:last-child{
+    margin-left: 1.5rem;
+}

@@ -1,0 +1,45 @@
+.settings{
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.settingsTitle{
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    font-family: pattaya;
+}
+.settingsUpdateTitle{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.settingsDeleteTitle{
+    font-size: 1.2rem;
+    max-width: 10rem;
+    font-family: pattaya;
+    cursor:pointer;
+    background-color: rgb(194, 52, 52);
+    color:white;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 30px;
+}
+.profilePictureContainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:1rem;
+}
+.settingsPP{
+    display: inline;
+}
+.profilePicture{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+.settingsPPIcon{
+    cursor: pointer;
+}
