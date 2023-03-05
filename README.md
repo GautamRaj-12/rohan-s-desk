@@ -9,7 +9,11 @@ This project is currently in development. The frontend part  and api of the proj
 
 ## Project Screen Shots
 
-
+![1  Home 1](https://user-images.githubusercontent.com/64408989/222943770-38866d2b-8c44-4ab9-acd3-9448b410c477.png)
+![2  Home 2](https://user-images.githubusercontent.com/64408989/222943771-5c868cd7-17bd-4e07-9c67-ccf37ad279f4.png)
+![3  About](https://user-images.githubusercontent.com/64408989/222943773-02015f52-e6fe-4ae8-af2b-dd5bc726a68b.png)
+![4  Contact](https://user-images.githubusercontent.com/64408989/222943774-a793fbff-6f36-4e76-b68d-87beef21b1e0.png)
+![5  Write](https://user-images.githubusercontent.com/64408989/222943775-72c14e68-12c9-4099-9eaa-2da86e9309f7.png)
 
 
 # Getting Started with Create React App
