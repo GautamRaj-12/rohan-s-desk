@@ -5,7 +5,7 @@ A single user blog application built with react,node,express,mongo db.
 
 ## Project Status
 
-This project is currently in development. The frontend part  and api of the project has been completed. The connection of frontend to backend is in progress.
+This project is currently in development. The frontend part  and api of the project has been completed. The connection of frontend to backend is in progress. 
 
 ## Project Screen Shots
 
@@ -42,3 +42,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+# Reflection
+
+- The project is built for my client whose requirement was to have a blogging website for himself.
+- I saw a perfect opportunity to hone my skills in the MERN stack. 
+- It is a beautiful learning experience. Through this I have learned very important concepts of React Js, Node Js, Express Js and Mongo Db.
+
+# Future Scope
+  
+- As of now the frontend and the api has been completed.
+- The next immediate action is to connect frontend and backend.
+- In future, It will also have a multi user platform with the Admin approving the registration.
