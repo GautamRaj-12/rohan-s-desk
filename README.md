@@ -8,12 +8,17 @@ A single user blog application built with react,node,express,mongo db.
 This project is currently in development. The frontend part  and api of the project has been completed. The connection of frontend to backend is in progress.
 
 ## Project Screen Shots
+https://ibb.co/WHGRQsb
+https://ibb.co/6wyFtzV
+https://ibb.co/FbvnhMK
+https://ibb.co/fd93QKc
+https://ibb.co/mz7D1h9
 
-![Home Page](https://drive.google.com/file/d/1OGXqLxj37haueYskbwTHoB7RIq78KCaQ/view?usp=share_link)
-![Home Page 2](https://drive.google.com/file/d/1wbO-88GJIWNMrsFziYIXUN3G3B4uHh7y/view?usp=share_link)
-![About Page ](https://drive.google.com/file/d/1wbO-88GJIWNMrsFziYIXUN3G3B4uHh7y/view?usp=share_link)
-![Contact Page ](https://drive.google.com/file/d/1WETsqKI23Z4qypwLnbCayLSwZ7oY9BW_/view?usp=share_link)
-![Write Page ](https://drive.google.com/file/d/1TiDgd6DJN4VpL70ub_2b-0uZhMG5osCM/view?usp=share_link)
+![Home Page](https://ibb.co/WHGRQsb)
+![Home Page 2](https://ibb.co/WHGRQsb)
+![About Page ](https://ibb.co/WHGRQsb)
+![Contact Page ](https://ibb.co/WHGRQsb)
+![Write Page ](https://ibb.co/WHGRQsb)
 
 
 # Getting Started with Create React App
