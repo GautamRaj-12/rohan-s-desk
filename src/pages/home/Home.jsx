@@ -12,14 +12,15 @@ function Home() {
   useEffect(() => {
     const fetchPosts = async () => {
       const res = await axios.get('/posts');
-      console.log(res);
+      // console.log(res);
+      setPosts(res.data);
     };
     fetchPosts();
   }, []); //empty array to fire this useEffect just at the beginning
   return (
     <div className='home'>
       <Header />
-      <Posts />
+      <Posts posts={posts} />
       <Footer />
     </div>
   );
