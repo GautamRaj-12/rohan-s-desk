@@ -1,10 +1,24 @@
-.postContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:center;
+.postContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.posts h2{
-    margin: 2rem 0;
-    font-family: pattaya;
+.posts h2 {
+  margin: 2rem 0;
+  font-family: pattaya;
+}
+.browse-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+.browse-category-text {
+  font-style: italic;
+  font-weight: 700;
+}
+.category-link {
+  text-decoration: underline;
 }
