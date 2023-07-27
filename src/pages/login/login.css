@@ -34,3 +34,6 @@ button {
 .register-button {
   margin-right: 2.7rem;
 }
+.disabled-button:disabled {
+  cursor: not-allowed;
+}

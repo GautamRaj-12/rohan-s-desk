@@ -6,7 +6,7 @@ import Write from './pages/write/Write';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import Settings from './pages/settings/Settings';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Contact from './pages/contact/Contact';
 
 function App() {

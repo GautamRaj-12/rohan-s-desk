@@ -1,4 +1,3 @@
-import React from 'react';
 import './login.css';
 import { Link } from 'react-router-dom';
 
@@ -8,15 +7,10 @@ function Login() {
       <h1>Login</h1>
       <form>
         <div className='mb-3'>
-          <label for='exampleInputEmail1' className='form-label'>
-            Email address
+          <label for='username' className='form-label'>
+            Username
           </label>
-          <input
-            type='email'
-            className='form-control'
-            id='exampleInputEmail1'
-            aria-describedby='emailHelp'
-          />
+          <input type='text' className='form-control' id='username' />
         </div>
         <div className='mb-3'>
           <label for='exampleInputPassword1' className='form-label'>
@@ -28,7 +22,9 @@ function Login() {
             id='exampleInputPassword1'
           />
         </div>
-        <button className='btn btn-success'>Login</button>
+        <button type='submit' className='btn btn-success disabled-btn'>
+          Login
+        </button>
       </form>
       <Link to='/register' className='btn btn-dark register-button'>
         {' '}
