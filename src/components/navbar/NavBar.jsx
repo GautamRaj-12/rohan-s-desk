@@ -4,7 +4,7 @@ import ProfilePicture from '../../assets/profile-pic.png';
 import '../navbar/navbar.css';
 
 function NavBar() {
-  const user = true;
+  const user = false;
   return (
     <>
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark sticky-top navbar-custom'>
@@ -62,13 +62,22 @@ function NavBar() {
                   className='profilepicture mx-2'
                 />
               ) : (
-                <Link
-                  className='text-white'
-                  style={{ textDecoration: 'none', fontFamily: 'poppins' }}
-                  to='/login'
-                >
-                  Login
-                </Link>
+                <>
+                  <Link
+                    className='text-white'
+                    style={{ textDecoration: 'none', fontFamily: 'poppins' }}
+                    to='/login'
+                  >
+                    Login
+                  </Link>
+                  <Link
+                    className='text-white'
+                    style={{ textDecoration: 'none', fontFamily: 'poppins' }}
+                    to='/register'
+                  >
+                    Register
+                  </Link>
+                </>
               )}
 
               <i className='fa-solid fa-magnifying-glass search-button mx-3'></i>

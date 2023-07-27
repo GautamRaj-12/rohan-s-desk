@@ -2,7 +2,7 @@ import React from 'react';
 import './login.css';
 import { Link } from 'react-router-dom';
 
-function login() {
+function Login() {
   return (
     <div className='login-container'>
       <h1>Login</h1>
@@ -38,4 +38,4 @@ function login() {
   );
 }
 
-export default login;
+export default Login;
