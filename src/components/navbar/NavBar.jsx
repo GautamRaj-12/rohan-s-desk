@@ -2,9 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfilePicture from '../../assets/profile-pic.png';
 import '../navbar/navbar.css';
+import { Context } from '../../context/Context';
+import { useContext } from 'react';
 
 function NavBar() {
-  const user = false;
+  const { user, dispatch } = useContext(Context);
+
+  const handleLogout = () => {
+    dispatch({ type: 'LOGOUT' });
+  };
   return (
     <>
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark sticky-top navbar-custom'>
@@ -51,13 +57,15 @@ function NavBar() {
                 </Link>
               </li>
               <li className='navbar-item p-2'>
-                <Link className='nav-link'>{user && 'Logout'}</Link>
+                <Link className='nav-link' onClick={handleLogout}>
+                  {user && 'Logout'}
+                </Link>
               </li>
             </ul>
             <div>
               {user ? (
                 <img
-                  src={ProfilePicture}
+                  src={user.profilePic}
                   alt='The Author'
                   className='profilepicture mx-2'
                 />
