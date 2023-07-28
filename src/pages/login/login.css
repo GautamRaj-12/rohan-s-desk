@@ -34,6 +34,17 @@ button {
 .register-button {
   margin-right: 2.7rem;
 }
-.disabled-button:disabled {
+.loginButton {
+  background-color: #198754;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+}
+.loginButton:hover {
+  background-color: #38b67b;
+}
+.disabled-btn:disabled {
   cursor: not-allowed;
 }
