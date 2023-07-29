@@ -7,6 +7,7 @@ import { useContext } from 'react';
 
 function NavBar() {
   const { user, dispatch } = useContext(Context);
+  const PF = 'http://localhost:5000/images/';
 
   const handleLogout = () => {
     dispatch({ type: 'LOGOUT' });
@@ -64,11 +65,13 @@ function NavBar() {
             </ul>
             <div>
               {user ? (
-                <img
-                  src={user.profilePic}
-                  alt='The Author'
-                  className='profilepicture mx-2'
-                />
+                <Link to='/settings'>
+                  <img
+                    src={PF + user.profilePic}
+                    alt='The Author'
+                    className='profilepicture mx-2'
+                  />
+                </Link>
               ) : (
                 <>
                   <Link
